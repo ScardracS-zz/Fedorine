@@ -12,7 +12,7 @@ read -p "Continue? [y/N] " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-    echo "Creating 3.5GB blank file called $OUT_NAME."
+    echo "Creating 3.7GB blank file called $OUT_NAME."
     dd if=/dev/zero of=$OUT_NAME iflag=fullblock bs=1M count=3500 && sync
     chown scardracs:scardracs $OUT_NAME
 fi
