@@ -2,7 +2,9 @@
 
 A collection of scripts to sets up Fedora and run off your PinePhone SD card. Soon to be part of the Fedora Mobility SIG.
 
-Original scripts files are provided by https://github.com/nikhiljha/pp-fedora-sdsetup. I wouldn't have done nothing of that without them
+Original scripts files are provided by https://github.com/nikhiljha/pp-fedora-sdsetup. I wouldn't have done nothing of that without them.
+
+These scripts are modified from the original one: this won't install kernel from njha/mobile but the version provided directly by megi. 
 
 ## **🚨🚨🚨 WARNING! 🚨🚨🚨**
 This is a **barely tested** collection of scripts written by someone who has never written a bash script for other people to use! It involves the **dd** command and **sudo**. This is **VERY DANGEROUS** - please do not run it unless you have read and fully understood what it will do. Better yet, read the scripts to learn how to install the image manually.
