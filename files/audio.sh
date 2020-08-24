@@ -1,0 +1,2 @@
+# Enable audio
+pineaudio -smhe
